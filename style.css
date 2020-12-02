@@ -6,7 +6,7 @@ body, html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-size: 20px;
+    font-size: 45px;
 }
 figure {
     display: flex;
@@ -38,27 +38,27 @@ footer {
 }
 h1 {
     font-family: 'Cabin', sans-serif;
-    font-size: 3.7em;
-    font-weight: 700;
-    line-height: 0%;
-    position: relative;
-    top: -5px;
-
-}
-h2 {
-    font-family: 'Cabin', sans-serif;
     font-size: 1.7em;
     font-weight: 700;
     line-height: 0%;
     position: relative;
-    top: -8px;
+    top: -12px;
+
+}
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 0%;
+    position: relative;
+    top: -15px;
 }
 h3 {
     font-family: 'Pacifico', cursive;
-    font-size: 4.3em;
+    font-size: 2em;
     line-height: 0%;
     position: relative;
-    top: -40px;
+    top: -45px;
     transform: rotate(-10deg);
 
 }
