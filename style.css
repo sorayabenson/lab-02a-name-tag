@@ -7,6 +7,11 @@ body, html {
     padding: 0;
     margin: 0;
     font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 figure {
     display: flex;
@@ -61,4 +66,26 @@ h3 {
     top: -45px;
     transform: rotate(-10deg);
 
+}
+input {
+    border: grey solid 2px;
+    border-radius: 5px;
+}
+input:active {
+    border: blue solid 2px;
+    border-radius: 5px;
+}
+button {
+    background-color: white;
+    color: grey;
+    border: grey solid 2px;
+    border-radius: 5px;
+    font-size: .3rem;
+    font-weight: 600;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
 }
