@@ -70,10 +70,13 @@ h3 {
 input {
     border: grey solid 2px;
     border-radius: 5px;
+    outline: none;
+
 }
-input:active {
-    border: blue solid 2px;
+input:hover {
+    border: black solid 2px;
     border-radius: 5px;
+    outline: none;
 }
 button {
     background-color: white;
@@ -82,10 +85,18 @@ button {
     border-radius: 5px;
     font-size: .3rem;
     font-weight: 600;
+    transition: 0.1s;
+    outline: none;
 }
 button:hover {
     background-color: black;
     color: white;
     border-color: transparent;
     border-radius: 5px;
+}
+button:active {
+    background-color: white;
+    color: black;
+    border: black solid 2px;
+    transition: 1s;
 }
