@@ -20,7 +20,7 @@ figure {
     align-items: center;
     width: 450px;
     height: 300px;
-    background: blue;
+    background:#0028FF;
     border-color: gray;
     border-style: solid;
     border-width: 3px;
@@ -37,6 +37,10 @@ section {
     background: white;
     color: black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 footer {
     height: 50px;
@@ -62,9 +66,9 @@ h3 {
     font-family: 'Pacifico', cursive;
     font-size: 2em;
     line-height: 0%;
-    position: relative;
-    top: -45px;
-    transform: rotate(-10deg);
+    position: absolute;
+    transform: rotate(-8deg);
+    transform-origin: 0% 0%;
 
 }
 input {
@@ -78,7 +82,7 @@ input:hover {
     border-radius: 5px;
     outline: none;
 }
-button {
+button.name-button {
     background-color: white;
     color: grey;
     border: grey solid 2px;
@@ -88,15 +92,103 @@ button {
     transition: 0.1s;
     outline: none;
 }
-button:hover {
+button.name-button:hover {
     background-color: black;
     color: white;
     border-color: transparent;
     border-radius: 5px;
 }
 button:active {
+    background-color: transparent;
+    color: transparent;
+    border: transparent solid 2px;
+    transition: 1.5s;
+}
+button.pink {
+    color: #FF0080;
+    border: #FF0080 solid 2px;
     background-color: white;
-    color: black;
-    border: black solid 2px;
-    transition: 1s;
+    border-radius: 5px;
+    font-size: .3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
+}
+button.pink:focus {
+    background-color: #FF0080;    
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.pink:hover {
+    background-color: #FF0080;    
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.orange {
+    color: #FF6600;
+    border: #FF6600 solid 2px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: .3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
+}
+button.orange:focus {
+    background-color: #FF6600;    
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.orange:hover {
+    background-color: #FF6600;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.purple {
+    color: #8000FF;
+    border: #8000FF solid 2px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: .3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
+}
+button.purple:focus {
+    background-color: #8000FF;    
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.purple:hover {
+    background-color: #8000FF;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.blue {
+    color: #0028FF;
+    border: #0028FF solid 2px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: .3rem;
+    font-weight: 600;
+    transition: 0.1s;
+    outline: none;
+}
+button.blue:focus {
+    background-color: #0028FF;    
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+}
+button.blue:hover {
+    background-color: #0028FF;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
 }
